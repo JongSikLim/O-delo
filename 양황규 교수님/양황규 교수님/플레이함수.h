@@ -171,5 +171,6 @@ void point(int matrix[][COL]) {
 
 	printf("Player%dÀÇ ½Â¸®!!\n", (p1_Point > p2_Point) ? 1:2);
 
+
 }
 
