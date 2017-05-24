@@ -141,6 +141,12 @@
   <ItemGroup>
     <ClCompile Include="소스.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include.h" />
+    <ClInclude Include="기초함수.h" />
+    <ClInclude Include="출력함수.h" />
+    <ClInclude Include="플레이함수.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

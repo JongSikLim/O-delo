@@ -27,13 +27,13 @@ void showMatrix(int matrix[][COL]) {
 			for (int l = 0; l <= 20; l++)
 				//좌표출력 (숫자)
 				(l == 0) ? printf(" ") : printf("%2d ", l);
-
-
-
+		
 		else {
 			for (int j = 0; j < 21; j++) {
+				//영역의 주인이 없을 때
 				if (matrix[i][j] == 0 || matrix[i][j] == 11 || matrix[i][j] == 22)
 					matrixBasic(i, j);
+				//영역의 주인이 있을 때
 				else
 					matrixGo(i, j);
 			}
@@ -42,7 +42,7 @@ void showMatrix(int matrix[][COL]) {
 
 		//
 		//줄바꿈
-		printf("\n\n");
+		printf("\n");
 
 	}
 }

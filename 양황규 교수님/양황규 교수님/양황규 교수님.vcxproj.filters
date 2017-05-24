@@ -19,4 +19,18 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="출력함수.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="기초함수.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="플레이함수.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
